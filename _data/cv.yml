@@ -1,0 +1,109 @@
+cv:
+  name: Zhengqi Sun
+  label: Undergraduate Researcher · Machine Learning & LLMs
+  email: sunzhengqi2024@stu.pku.edu.cn
+  location: Beijing, China
+  image: ""
+  summary: Undergraduate researcher at the Department of Information Management, Peking University. Primary interests in world models and embodied intelligence, with further work on large language models and synthetic data.
+
+  social_networks:
+    - network: GitHub
+      username: ZhengqiSun
+
+  sections:
+    Education:
+      - institution: Peking University
+        location: Beijing, China
+        url: https://www.pku.edu.cn/
+        area: Information Management
+        studyType: B.S. (2023 entry)
+        start_date: 2023
+        end_date: # expected
+        highlights:
+          - "Double degree in General Artificial Intelligence (Yuanpei College)."
+
+    Experience:
+      - company: "ModelBest (面壁智能)"
+        position: LLM Post-Training Algorithm Intern
+        location: Beijing, China
+        start_date: 2026-06-01
+        end_date:
+        highlights:
+          - "Research and engineering on post-training algorithms for large language models."
+
+      - company: "Embodied and Generative Intelligence Lab (Prof. Hao Tang)"
+        position: Research Assistant
+        location: School of Computer Science, Peking University
+        start_date: 2026-02-01
+        end_date:
+        highlights:
+          - "Research on world models and World-Action Models (WAM); manuscript in preparation."
+
+      - company: "Prof. Yiwen Sun's Group"
+        position: Research Assistant
+        location: Institute for Artificial Intelligence, Peking University
+        start_date: 2025-09-01
+        end_date: 2026-05-01
+        highlights:
+          - "Reason-Imagine-Act: closed-loop LLM decision making with world models for autonomous driving (ITSC 2026, first author, oral)."
+          - "Risk-Aware Prompting for LLM Autonomous Driving (ITSC 2026, co-author, oral)."
+
+      - company: "Prof. Xiaotie Deng's Group, Center on Frontiers of Computing Studies (CFCS)"
+        position: Research Assistant
+        location: School of Computer Science, Peking University
+        start_date: 2025-04-01
+        end_date: 2026-02-01
+        highlights:
+          - "An Information-Theoretic Criterion for Efficient Data Synthesis (ICML 2026, co-first author)."
+
+      - company: "Prof. Fan Meng's Group"
+        position: Research Assistant
+        location: Department of Information Management, Peking University
+        start_date: 2024-12-01
+        end_date:
+        highlights:
+          - "Network-aware financial distress prediction via heterogeneous temporal graph neural networks (ITQM 2026, first author)."
+
+    Publications:
+      - title: "Reason-Imagine-Act: Closed-Loop LLM Decision Making with World Models for Autonomous Driving"
+        authors:
+          - Zhengqi Sun
+          - Yiwen Sun
+          - Boxuan Liu
+          - Tailai Chen
+          - Tianxu Guo
+          - Jiabin Liu
+        publisher: IEEE Intelligent Transportation Systems Conference (ITSC) — Oral Presentation
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2605.24004
+        summary: A closed-loop framework coupling an LLM reasoner with an action-conditioned world model and safety scorer for autonomous driving; 80.05% route completion and 0.20% collision rate on CARLA.
+
+      - title: An Information-Theoretic Criterion for Efficient Data Synthesis
+        authors:
+          - Hanyu Li
+          - Zhengqi Sun
+          - Xiaotie Deng
+        publisher: International Conference on Machine Learning (ICML)
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2605.16379
+        summary: An information-theoretic account of when synthetic data improves LLM training, based on whether the generation-training loop is information-open or information-closed.
+
+      - title: Credit Risk Contagion Prediction via Hierarchical Attention on Dynamic Heterogeneous Corporate Networks
+        authors:
+          - Zhengqi Sun
+          - Fei Shao
+          - Fan Meng
+        publisher: International Conference on Information Technology and Quantitative Management (ITQM), Procedia Computer Science
+        releaseDate: 2026
+        summary: RA-HTGNN, a relation-attention temporal heterogeneous GNN for corporate credit-risk contagion prediction over 3,797 Chinese A-share firms (AUC=0.839).
+
+    Research Interests:
+      - name: Machine Learning
+        icon: fa-solid fa-tag
+        keywords: "World Models, Embodied Intelligence, Autonomous Driving, Large Language Models, Synthetic Data, Information Theory, Graph Neural Networks"
+
+    Languages:
+      - name: Chinese
+        summary: "Native speaker"
+      - name: English
+        summary: "Professional working proficiency"

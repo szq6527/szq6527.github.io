@@ -1,0 +1,49 @@
+---
+---
+
+@inproceedings{sun2026reasonimagineact,
+  abbr        = {ITSC},
+  bibtex_show = {true},
+  selected    = {true},
+  title       = {Reason--Imagine--Act: Closed-Loop LLM Decision Making with World Models for Autonomous Driving},
+  author      = {Sun, Zhengqi and Sun, Yiwen and Liu, Boxuan and Chen, Tailai and Guo, Tianxu and Liu, Jiabin},
+  booktitle   = {IEEE International Conference on Intelligent Transportation Systems (ITSC)},
+  year        = {2026},
+  note        = {Oral Presentation},
+  abstract    = {Large language models (LLMs) are promising for autonomous driving, but semantics-only decision policies can yield physically unsafe behavior in dynamic traffic. We propose Reason-Imagine-Act (RIA), a closed-loop framework that couples an LLM reasoner with an action-conditioned world model for explicit dynamics verification. At each step, the LLM proposes an action template and candidate sub-actions, the world model performs short-horizon rollouts, and a safety scorer selects the safest executable action with feedback to the next reasoning step. Under a unified CARLA point-goal protocol (1000 episodes), RIA achieves 80.05% route completion, 51.10% arrival rate, and 0.20% collision rate, consistently outperforming training-free baselines on core closed-loop metrics.},
+  arxiv       = {2605.24004},
+  pdf         = {https://arxiv.org/pdf/2605.24004},
+  url         = {https://arxiv.org/abs/2605.24004},
+  html        = {https://arxiv.org/abs/2605.24004},
+  code        = {https://github.com/pku-smart-city/source_code/tree/main/RIA},
+  keywords    = {Autonomous Driving, Large Language Models, World Models, Closed-Loop Decision Making, Safety Verification}
+}
+
+@inproceedings{li2026information,
+  abbr        = {ICML},
+  bibtex_show = {true},
+  selected    = {true},
+  title       = {An Information-Theoretic Criterion for Efficient Data Synthesis},
+  author      = {Li, Hanyu and Sun, Zhengqi and Deng, Xiaotie},
+  booktitle   = {International Conference on Machine Learning (ICML)},
+  year        = {2026},
+  abstract    = {Synthetic data becomes crucial for large language model training, but its effectiveness is highly inconsistent. We provide an information-theoretic account of this inconsistency: synthetic data improves a model only when the generation-training loop is information-open, i.e., shaped by external signals (verifiers, environments, or rubrics) that inject task-relevant information beyond the model's current distribution. When the loop is information-closed (relying on the model's own outputs without such signals), the data processing inequality ensures that task-relevant information can only decrease, making collapse a predicted outcome. Among information-open pipelines, both efficiency and generalization hinge on the meta-level of supervision: a coarser signal such as binary correctness treats all acceptable outputs as equivalent, so the behavior it teaches is not tied to any particular domain or surface form and generalizes naturally across tasks and domains. These observations lead to a guiding thesis: learning preferentially converges to the most information-efficient signal component available, which accelerates learning when that component is the intended one, but causes reward hacking when a spurious pattern happens to be simpler.},
+  arxiv       = {2605.16379},
+  pdf         = {https://arxiv.org/pdf/2605.16379},
+  url         = {https://arxiv.org/abs/2605.16379},
+  html        = {https://arxiv.org/abs/2605.16379},
+  keywords    = {Synthetic Data, Information Theory, Data Processing Inequality, LLM}
+}
+
+@inproceedings{sun2026credit,
+  abbr        = {ITQM},
+  bibtex_show = {true},
+  selected    = {true},
+  title       = {Credit Risk Contagion Prediction via Hierarchical Attention on Dynamic Heterogeneous Corporate Networks},
+  author      = {Sun, Zhengqi and Shao, Fei and Meng, Fan},
+  booktitle   = {International Conference on Information Technology and Quantitative Management (ITQM), Procedia Computer Science},
+  publisher   = {Elsevier},
+  year        = {2026},
+  abstract    = {Credit risk is closely tied to financial distress and can propagate through inter-firm networks formed by guarantee relationships, equity linkages, and market co-movements. We construct a dynamic heterogeneous corporate network with seven relation types for 3,797 Chinese A-share listed companies over 2010--2024 and investigate whether network-mediated contagion signals improve next-year distress prediction. We propose RA-HTGNN, a Relation-Attention Temporal Heterogeneous Graph Neural Network that combines per-relation graph convolution, relation-level attention fusion, and GRU-based temporal encoding. A stacking ensemble that integrates RA-HTGNN with a Random Forest via a meta-learner achieves AUC=0.839.},
+  keywords    = {Credit Risk Contagion, Heterogeneous Graph Neural Network, Temporal Attention, Corporate Risk Prediction}
+}
